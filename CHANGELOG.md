@@ -13,4 +13,4 @@
 # 5.0.6 - Read,Write optimization
 
 
-# 5.0.7 - Add reload method
+# 5.0.8 - Add reload method
