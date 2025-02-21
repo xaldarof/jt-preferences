@@ -95,6 +95,9 @@ final object = preferences.getObject('user', (map) => User.fromJson(map));
 print(object?.name);
 print(object?.age);
 
+//Reload data from storage
+_preferences.reload();
+
 ```
 
 ### Listen changes

@@ -99,4 +99,7 @@ class JtPreferences extends Preferences {
   List<String> getKeys() {
     return _manager.getKeys();
   }
+
+  @override
+  Future<void> reload() => _manager.reload();
 }

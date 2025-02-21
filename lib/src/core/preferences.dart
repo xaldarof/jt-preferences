@@ -35,6 +35,8 @@ abstract class Get {
 
   List<String> getKeys();
 
+  Future<void> reload();
+
   T? getObject<T>(String key, T Function(Map<String, dynamic> map) parse);
 }
 

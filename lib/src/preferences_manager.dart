@@ -159,4 +159,9 @@ class PreferencesManagerImpl extends PreferencesManager {
   List<String> getKeys() {
     return _cache.keys.toList();
   }
+
+  @override
+  Future<void> reload() {
+    return initialize();
+  }
 }
